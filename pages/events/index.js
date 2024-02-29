@@ -14,6 +14,7 @@ const AllEventsPage = () => {
 
   return (
     <Fragment>
+      <p className='center'>Sugaru e maximal</p>
       <EventsSearch onSearch={findEventsHandler} />
       <EventList items={events} />
     </Fragment>
